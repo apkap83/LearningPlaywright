@@ -1,0 +1,14 @@
+# Create Test User Code
+    npx playwright codegen -o tests/B2B_CreateTestUser.spec.js
+
+# Run Create Test User
+npx playwright test B2B_CreateTestUser.spec.js --headed
+
+# Delete Test User Code
+    npx playwright codegen -o tests/B2B_DeleteTestUser.spec.js
+
+# Run Delete Test User
+npx playwright test B2B_DeleteTestUser.spec.js --headed
+
+# Assign Creator Role Code
+    npx playwright codegen -o tests/B2B_AssignCreatorRole.spec.js
